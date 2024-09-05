@@ -1,0 +1,29 @@
+.Taskbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Distribute content between left and right */
+    background-color: #288387; /* Background color */
+    padding: 0.5rem;
+    border-bottom: 1px solid #9d9999; /* Border for separation */
+  }
+  
+  .left-buttons,
+  .right-buttons {
+    display: flex;
+  }
+  
+  .left-buttons button,
+  .right-buttons button {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+  }
+  
+  .left-buttons button:hover,
+  .right-buttons button:hover {
+    background-color: #ddd; /* Background color on hover */
+  }
+  

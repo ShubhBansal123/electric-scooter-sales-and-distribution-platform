@@ -1,0 +1,46 @@
+/* Header styles */
+header {
+    background-color: #1b1a1a; /* Header background color */
+    color: #f7f1f1;
+    padding: 1rem;
+    position: fixed; /* Fix the header at the top */
+    width: 100%; /* Make the header span the full width */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the header is on top */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Center text inside header */
+}
+
+/* Header title styles */
+header h1 {
+    margin: 0; /* Remove default margin */
+}
+
+header nav {
+    margin-top: 0.5rem; /* Space between header title and navigation */
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav li {
+    margin-right: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline; /* Optional: underline on hover */
+}
